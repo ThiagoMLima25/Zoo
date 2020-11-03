@@ -1,0 +1,112 @@
+/// COLORS
+$green: #128b5d;
+$white: #ffffff;
+
+/// FONTS
+$font-cairo: 'Cairo', sans-serif;
+
+@import "templates/Inicio";
+@import "templates/Sobre";
+@import "templates/Como-chegar";
+@import "templates/FAQ";
+
+body, html {
+    margin: 0;
+    padding: 0;
+
+    .logo-banner {
+        height: 100px;    
+    }
+
+    @media (max-width: 576px) {
+        .logo-banner {
+            height: 60px;    
+        }
+        .nav-link {
+            font-size: 14px;
+        }
+        section[data-include="Inicio"] {
+            height: 100vh;
+        }
+        section[data-include="Sobre"] {
+            height: 115vh !important;
+        }
+        section[data-include="Como-chegar"] {
+            height: 100vh !important;
+        }
+        section[data-include="FAQ"] {
+            height: 100vh;
+        }
+    }
+    
+    header {
+        height: 188px;
+        background-color: $white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+
+        .navbar {
+            background-color: $green;
+            font-family: $font-cairo;
+        
+            .nav-link {
+                color: $white;
+            }
+        }
+
+        .login, .login:hover, .login:focus, .login:active,
+        .logout, .logout:hover, .logout:focus, .logout:active {
+            margin-right: 12px;
+            right: 0;
+            position: absolute;
+            background-color: transparent;
+            border: 0;
+            text-decoration: none;
+            color: $white;
+            outline: none;
+        }
+    }
+
+    section[data-include="Inicio"] {
+        height: 100vh;
+    }
+
+    section[data-include="Como-chegar"] {
+        height: 75vh;
+    }
+    
+    section[data-include="FAQ"] {
+        height: 100vh;
+    }
+
+    section[data-include="Sobre"] {
+        height: 112vh;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label, p {
+    margin-bottom: 0;
+    font-family: $font-cairo;
+    text-align: justify;
+}
+
+.centralized {
+    margin: auto;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+footer {
+    height: 40vh;
+    background-color: $green;
+}

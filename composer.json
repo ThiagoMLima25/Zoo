@@ -1,0 +1,16 @@
+{
+    "name": "marti/zoo",
+    "authors": [
+        {
+            "name": "ThiagoMLima25",
+            "email": "thiagolima0993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Application\\": "application/"
+        }
+    }
+}

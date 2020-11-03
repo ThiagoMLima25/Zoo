@@ -1,0 +1,31 @@
+.accordion {
+    width: 100%;
+
+    a[data-toggle="collapse"], a[data-toggle="collapse"]:hover, a[data-toggle="collapse"]:focus, a[data-toggle="collapse"]:active,
+    button[data-toggle="collapse"], button[data-toggle="collapse"]:hover, button[data-toggle="collapse"]:focus, button[data-toggle="collapse"]:active {
+        text-decoration: none;
+        color: inherit;
+        outline: none;
+        border-style: outset;
+        box-shadow: none;
+        padding: 0;
+   }
+
+   .btn-delete {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+   }
+}
+
+.success {
+    color: $green;
+}
+
+.card-header {
+    padding-right: 60px;
+}
+
+.icon-trash {
+    stroke: white;
+}
