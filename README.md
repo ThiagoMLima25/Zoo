@@ -8,3 +8,5 @@ Programming language and technologies:
 - CSS
 - SASS
 - BOOTSTRAP
+
+The "Inicio (Home)" section with the "Em construção (Under construction)" image is where we will add our game.
