@@ -4,6 +4,7 @@ Programming language and technologies:
 - PHP
 - MYSQL
 - HTML5
+- JAVASCRIPT
 - CSS
 - SASS
 - BOOTSTRAP
